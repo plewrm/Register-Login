@@ -1,0 +1,58 @@
+{
+  "Data": [
+    {
+      "id": 1,
+      "name": "Pawan",
+      "password": "abc@123",
+      "email": "Pawan@test"
+    },
+    {
+      "name": "salve",
+      "password": "Pawan@555",
+      "email": "salve@test",
+      "id": 2
+    },
+    {
+      "name": "Rocky",
+      "password": "Rocky@test",
+      "email": "rocky@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Rocky",
+      "password": "Rocky@test",
+      "email": "rocky@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Ramesh",
+      "password": "ramesh@123",
+      "email": "ramesh@test.com",
+      "id": 5
+    },
+    {
+      "name": "ramesh",
+      "password": "ramesh@123",
+      "email": "ramesh@test.com",
+      "id": 6
+    },
+    {
+      "name": "rang",
+      "password": "rang@123",
+      "email": "rang@test.com",
+      "id": 7
+    },
+    {
+      "name": "Similique occaecat v",
+      "password": "Alias vel ipsam nihi",
+      "email": "Aut dolorem quisquam",
+      "id": 8
+    },
+    {
+      "name": "Reprehenderit ea del",
+      "password": "Voluptas suscipit ma",
+      "email": "Magnam ipsam archite",
+      "id": 9
+    }
+  ]
+}
