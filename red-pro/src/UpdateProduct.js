@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect} from 'react';
 import Header from './Header';
 import Button from 'react-bootstrap/Button';
 // import { withRouter } from 'react-router-dom'
@@ -51,6 +51,7 @@ const UpdateProduct = () => {
 
     return (
         <div className='product'>
+            <Header/>
             <h1>Update Product</h1>
             <>
             <div className="col-sm-6  offset-sm-3">

@@ -22,7 +22,8 @@ function Header() {
               <>
                 <Link to="/"> Product List</Link>&nbsp;&nbsp;
                 <Link to="/add"> AddProduct</Link>&nbsp;&nbsp;
-                <Link to="/update"> UpdateProduct</Link>&nbsp;&nbsp;
+                {/* <Link to="/update"> UpdateProduct</Link>&nbsp;&nbsp; */}
+                <Link to="/search">Search</Link>
               </>
               :
               <>
