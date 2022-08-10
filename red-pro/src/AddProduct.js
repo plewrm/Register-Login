@@ -31,10 +31,10 @@ const AddProduct = () => {
     const [price, setPrice] = React.useState('');
     const [desc, setDesc] = React.useState('');
     const [error, setError] = React.useState(false);
-    const [users, setUsers] = useState([]);
+    // const [users, setUsers] = useState([]);
     const [products, setProducts]=useState([])
-    const [fileName, setFileName] = useState("");
-    const navigate = useNavigate();
+    // const [fileName, setFileName] = useState("");
+    // const navigate = useNavigate();
 
     // const saveFile = (e) => {
     //     setFile(e.target.files[0]);

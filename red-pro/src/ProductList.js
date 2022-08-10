@@ -5,7 +5,7 @@ import {Table} from 'react-bootstrap'
 
 const ProductList = () => {
   const [products, setProducts] = useState([]);
-  const navigate = useNavigate()
+  // const navigate = useNavigate()
 
 
 
@@ -54,7 +54,7 @@ const ProductList = () => {
   // const searchHandle = async (event)=>{
   //     let key = event.target.value;
   //     if(key){
-  //         let result = await fetch(`http://localhost:5000/search/${key}`);
+  //         let result = await fetch(`http://localhost:3000/Add/${key}`);
   //         result = await result.json()
   //         if(result){
   //             setProducts(result)
@@ -69,6 +69,7 @@ const ProductList = () => {
     <div className="product-list">
       <Header/>
       <h3>Product List</h3>
+ 
       {/* <input type="" className='search-product-box' placeholder='Search Product'
             onChange={searchHandle}
              /> */}

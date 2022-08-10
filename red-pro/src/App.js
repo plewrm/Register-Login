@@ -10,6 +10,7 @@ import UpdateProduct from './UpdateProduct'
 import { BrowserRouter, Routes, Route,Switch } from 'react-router-dom'
 import Protected from './Protected';
 import ProductList from './ProductList';
+import Search from './Search'
 
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
 
             <Route path="/add" element={<Protected  Cmp={AddProduct}/>}/>
             <Route path="/update/:id" element={<Protected  Cmp={UpdateProduct}/>}/>
+
+            <Route path="/search" element={<Protected  Cmp={Search}/>}/>
+
             
             <Route path="/" element={<ProductList/>}></Route>
             </Routes>
