@@ -1,28 +1,36 @@
 // import logo from './logo.svg';
-import React from 'react'
+// import React, { Fragment } from 'react'
 import './App.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './Header';
-import AddProduct from './AddProduct'
+// import Header from './Header';
 import Login from './Login'
-import UpdateProduct from './UpdateProduct'
 import Register from './Register'
-import {BrowserRouter,Routes, Route} from 'react-router-dom'
-
+import AddProduct from './AddProduct'
+import UpdateProduct from './UpdateProduct'
+import { BrowserRouter, Routes, Route,Switch } from 'react-router-dom'
+import Protected from './Protected';
+import ProductList from './ProductList';
 
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Header />
-        <h1>Welcome to this</h1>
-        <Routes>
-          <Route path="/Login" element={<Login/>}></Route>
-          <Route path="/register" element={<Register/>}></Route>
-          <Route path="/add" element={<AddProduct/>}></Route>
-          <Route path="/update" element={<UpdateProduct/>}></Route>
-        </Routes>
+       
+          <Routes>
+            <Route path="/Login" element={<Login />}></Route>
+            
+            <Route path="/register" element={<Register />}></Route>
+            
+
+            <Route path="/add" element={<Protected  Cmp={AddProduct}/>}/>
+            <Route path="/update/:id" element={<Protected  Cmp={UpdateProduct}/>}/>
+            
+            <Route path="/" element={<ProductList/>}></Route>
+            </Routes>
+            
+          
+           
       </BrowserRouter>
     </div>
   );
