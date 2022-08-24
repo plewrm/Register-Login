@@ -106,7 +106,7 @@ const getProducts = async () => {
         <>
         <div className='product'>
             <Header />
-            <h1>Add Product</h1>
+            <h1>Add Product all</h1>
             {/* <div className="col-sm-6  offset-sm-3"> */}
     <div className='pm-card-form'>
 
