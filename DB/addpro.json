@@ -1,0 +1,46 @@
+{
+  "Add": [
+    {
+      "name": "Galaxy Z ",
+      "price": "20000",
+      "file": {},
+      "desc": "A Product is Samsung",
+      "id": 3
+    },
+    {
+      "name": "Kalashnikao",
+      "price": "5550000",
+      "file": "B6.webp",
+      "desc": "Band",
+      "id": 6
+    },
+    {
+      "name": "Prosell",
+      "price": "5550000",
+      "file": "B7.webp",
+      "desc": "Band Topppp",
+      "id": 7
+    },
+    {
+      "name": "Bugati GT5",
+      "price": "65000000",
+      "file": "Take image",
+      "desc": "Bugati",
+      "id": 13
+    },
+    {
+      "name": "Galaxy Z+ ",
+      "price": "200000",
+      "file": {},
+      "desc": "A Product is SamsungZ+",
+      "id": 15
+    },
+    {
+      "name": "Water Bottle",
+      "price": "500000",
+      "file": {},
+      "desc": "New Cat",
+      "id": 16
+    }
+  ]
+}
